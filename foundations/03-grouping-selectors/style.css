@@ -1,0 +1,25 @@
+/* /* * **The first element**: a black background, white text color, and a bold font weight
+* **The second element**: a yellow background
+* **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback  */
+
+/* ### Self Check
+- Does each element have a unique class name?
+- Did you use the grouping selector for styles that both elements share?
+- Did you make separate rules for the styles unique to each element? */ 
+
+button {
+    border: 2px solid gray; 
+    padding: 5px; 
+    font-size: 28px; 
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+#i-am-first {
+    color: white; 
+    background-color: black; 
+    font-weight: bold;
+}
+
+#no-i-am-first {
+    background-color: yellow; 
+}
